@@ -1,11 +1,8 @@
-.logo {
+.logo-home {
     height: 100px;
-    transition: transform 0.3s ease-in-out;
-    animation: spin 2s linear infinite;
-    animation-iteration-count: 1;
 }
 
-.logo:hover {
+.logo-home:hover {
     animation: breathe 1s infinite alternate;
     cursor: pointer;
 }
@@ -18,16 +15,6 @@
         transform: scale(1.1);
     }
 }
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}   
-
 
 .title-wrapper {
     font-size: 24px;
@@ -44,7 +31,7 @@
 
 .login-wrapper {
     text-align: center;
-    margin-top: 250px;
+    margin-top: 50px;
 }
 
 .button-wrapper {
@@ -53,7 +40,7 @@
 }
 
 .login-button {
-    background-color: #F28C2A80;
+    background-color: #DA4259;
     color: #ffffff;
     border: none;
     padding: 10px 30px;
@@ -66,7 +53,7 @@
     border-radius: 15px;
 }
 
-.signup-button {
+.register-button {
     background-color: transparent;
     color: #ffffff;
     border: none;
@@ -78,7 +65,7 @@
     margin: 20px 0 0 5px;
     cursor: pointer;
     border-radius: 15px;
-    border: #F28C2A80 1px solid;
+    border: #DA4259 1px solid;
 }
 
 .password-button {

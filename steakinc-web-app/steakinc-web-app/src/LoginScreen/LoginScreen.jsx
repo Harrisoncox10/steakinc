@@ -34,7 +34,7 @@ function LoginScreen() {
         <div className="container">
             <div className="login-container">
                 <div className="login-title-wrapper">
-                    <img src="/src/assets/highsteaks.png" alt="High Steaks Logo" className="logo" />
+                    <img src="/src/assets/highsteaks.png" alt="High Steaks Logo" className="logo-login" />
                     <h1 className="login-title-text">High Steaks</h1>
                 </div>
                 {/* Template Message for login */}
